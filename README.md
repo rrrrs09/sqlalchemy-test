@@ -15,6 +15,7 @@ poerty install
 Создать и заполнить файл `.env`. Переменные можно посмотреть в файле `example.env`
 
 ```bash
+poetry run alembic upgrade head
 poetry run python main.py
 ```
 
